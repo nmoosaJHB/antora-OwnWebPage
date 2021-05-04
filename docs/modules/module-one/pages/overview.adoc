@@ -1,5 +1,5 @@
 = This is the new page 
 
-==second heading i guess
+== underlined heading
 
-===third heading maybe
+=== third heading thats in bold
