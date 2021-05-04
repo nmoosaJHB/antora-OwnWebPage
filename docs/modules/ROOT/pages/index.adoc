@@ -1,13 +1,10 @@
 = Welcome to my first page nmoosa
 
-This is the automatic start page for version *{page-component-version}* of Component B.
+This is the *{page-component-version}* of my first antora website
 
-Component B is one of two documentation components in the Antora Demo.
-The other docs component, Component A, can be accessed via the component selector menu (aka component drawer) at the bottom of the menu on the left side of the page.
+== this creates an underlined heading im guessing.
 
-== Page source
 
-This page is sourced from the AsciiDoc file named [.path]_index.adoc_ that is located at [.path]_demo-component-b/docs/modules/ROOT/pages_.
 
 === Why is this the home page of Component B?
 
