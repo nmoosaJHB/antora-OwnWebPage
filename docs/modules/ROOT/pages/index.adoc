@@ -4,6 +4,9 @@ This is the *{page-component-version}* of my first antora website
 
 == this creates an underlined heading im guessing.
 
+Just a change to see if the github signature works
+
+
 
 
 === Why is this the home page of Component B?
