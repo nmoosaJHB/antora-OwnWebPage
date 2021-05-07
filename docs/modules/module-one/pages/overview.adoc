@@ -1,5 +1,0 @@
-= This is the new page 
-
-== underlined heading
-
-=== third heading thats in bold

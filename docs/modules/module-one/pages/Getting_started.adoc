@@ -1,0 +1,123 @@
+
+
+
+= Getting started
+
+As we indicated in the previous chapter, you will be using the https://www.python.org[Python] programming language to learn the fundamentals of programming. The first step is to setup your development environment. Below are the tasks you need to complete.
+
+* <<Install Git>>
+* <<Install the WeThinkCode_ tool>>
+* <<Install Python>>
+* <<Setup VSCode for Python>>
+
+== Install Git
+
+Software developers often need to do tasks on the computer that can't be accomplished through a graphical user interface.
+Instead, we often use a program called a Terminal which allows us to give precise instructions to the computer's Operating System.
+In fact https://en.wikipedia.org/wiki/Computer_terminal[computer terminals] used to be physical pieces of hardware that provided a textual interface, called a Shell.
+
+Shells and REPLs are closely related that they're sometimes used interchangeably. You'll notice that with a lot of computer jargon because things change quite fast (e.g. like physical terminals
+becoming software programs), but the names of things outlive their origin!
+
+Ensure that you have a working installation of git.  You may already have git installed on your system.  To find out, open a terminal and enter ```git --version```.
+
+[source,bash]
+----
+git --version
+----
+git version 2.17.1
+
+=== You can use any of these guides to install git.
+. https://docs.gitlab.com/ee/topics/git/how_to_install_git/
+. https://www.atlassian.com/git/tutorials/install-git
+
+
+
+== Install the WeThinkCode_ tool
+
+=== Are you working from a workstation on campus or a laptop provided by WeThinkCode_?
+
+==== If you are, first check if you have the latest version of CLI installed by:
+
+1.https://www.wikihow.com/Open-a-Terminal-Window-in-Ubuntu[Open a terminal] and type the following command in a prompt (without the `$`):
+
+[source,shell]
+----
+wtc-lms version
+----
+
+2.Check that it shows the following:
+[source,shell]
+----
+wtc-lms version: 0.0.46
+----
+
+==== If you have a different version or it responded with `command not found`, you will will need to install it by:
+
+1.https://wethinkcode-community.slack.com/files/U01KWTUS989/F01RUJLM11B/wtc-lms[Download the executable] and save it in your `Downloads` directory.
+
+2.Copy the `wtc-lms` file you've just downloaded into the `bin/` subdirectory under your home directory by entering the following command in your terminal:
+
+[source,shell]
+----
+cp ~/Downloads/wtc-lms ~/bin/
+----
+
+[NOTE] 
+.if the `~/bin/` directory doesn't exist, run this command to create it:
+====
+[source,shell]
+----
+mkdir -p ~/bin
+----
+
+1.Make the `wtc-lms` tool runnable by typing the following:
+
+[source,shell]
+----
+chmod +x ~/bin/wtc-lms
+----
+
+2.Finally test that you can run it by restarting your terminal and entering:
+
+[source,shell]
+----
+wtc-lms version
+----
+
+If successful, it will show the following:
+
+[source,shell]
+----
+wtc-lms version: 0.0.46
+----
+====
+
+[NOTE] 
+.if you get `wtc-lms: command not found` at this stage, make sure that you can execute `wtc-lms` from any directory by running and restarting your Terminal:
+====
+[source,shell]
+----
+echo export PATH=\"\$PATH:\$HOME/bin\" >> ~/.bashrc
+----
+
+OR if you are using zsh:
+
+[source,shell]
+----
+echo export PATH=\"\$PATH:\$HOME/bin\" >> ~/.zshrc
+----
+
+====
+
+== Install Python
+ 
+. Install *Python 3* by following the instructions at https://docs.python-guide.org/starting/installation/
+
+== Setup VSCode for Python
+
+. Install VSCode by following the instructions at https://code.visualstudio.com/
+. Complete the tutorial at https://code.visualstudio.com/docs/python/python-tutorial
+
+IMPORTANT: If you do not complete the steps above, you will not be able to continue in this module.
+
